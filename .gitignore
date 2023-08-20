@@ -1,0 +1,17 @@
+# Local Python files
+__pycache__/
+*.py[cod]
+
+# Local/editor files
+.DS_Store
+.venv/
+venv/
+*.swp
+
+# Local application data
+Database/*.db
+Database/*.sqlite
+Database/*.sqlite3
+
+# Personal planning notes
+plan.txt

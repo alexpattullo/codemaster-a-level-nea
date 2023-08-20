@@ -1,0 +1,181 @@
+[
+     {
+         "QuestionID": 1,
+         "QuestionName": "Phrase Reverse",
+         "QuestionDescription": "Write a program to reverse a string that is inputted.\nYour program must take a string as input and return the string in reverse order.",
+         "Examples": [
+             {"Input": "alex", "Output": "xela"},
+             {"Input": "python", "Output": "nohtyp"},
+             {"Input": "golf", "Output": "flog"}
+         ],
+         "Hints": {
+             "Hint1": "Think about how you can iterate through the string.",
+             "Hint2": "Consider using slicing or a loop to reverse the string.",
+             "Hint3": "You can use string slicing with a step of -1 to reverse the string, or try iterating through the string and building the reversed string character by character."
+         },
+         "Difficulty": "EASY",
+         "TypeOfQuestion": {"Descriptors": ["BASIC"]}
+     },
+     {
+         "QuestionID": 2,
+         "QuestionName": "Count Vowels",
+         "QuestionDescription": "Write a program that counts the number of vowels in a given string. \n\nYour program should take a string as input and return the count of vowels present in it. For example, if the input is 'apple', the output should be 2.",
+         "Examples": [
+             {"Input": "apple", "Output": 2},
+             {"Input": "elephant", "Output": 3},
+             {"Input": "python", "Output": 1}
+         ],
+         "Hints": {
+             "Hint1": "Consider using a loop to iterate through each character in the string.",
+             "Hint2": "You can use the 'in' operator to check if a character is a vowel."
+         },
+         "Difficulty": "EASY",
+         "TypeOfQuestion": {"Descriptors": ["BASIC"]}
+     },
+     {
+         "QuestionID": 3,
+         "QuestionName": "Palindrome Check",
+         "QuestionDescription": "Write a program that checks if a given string is a palindrome. \n\nA palindrome is a word, phrase, number, or other sequences of characters that reads the same forward and backward. Your program should return 'true' if the input string is a palindrome and 'false' otherwise. For example, if the input is 'radar', the output should be 'true'.",
+         "Examples": [
+             {"Input": "radar", "Output": "true"},
+             {"Input": "level", "Output": "true"},
+             {"Input": "python", "Output": "false"}
+         ],
+         "Hints": {
+             "Hint1": "Think about reversing the string and comparing it with the original.",
+             "Hint2": "Consider slicing or iteration to reverse the string."
+         },
+         "Difficulty": "MEDIUM",
+         "TypeOfQuestion": {"Descriptors": ["STRING"]}
+     },
+     {
+         "QuestionID": 4,
+         "QuestionName": "Fibonacci Series",
+         "QuestionDescription": "Write a program to generate the Fibonacci series up to a specified number of terms. \n\nThe Fibonacci series is a series of numbers where each number is the sum of the two preceding ones, starting from 0 and 1. Your program should return a list containing the Fibonacci series up to the specified number of terms. For example, if the input is '6', the output should be '[0, 1, 1, 2, 3, 5]'.",
+         "Examples": [
+             {"Input": "6", "Output": "[0, 1, 1, 2, 3, 5]"},
+             {"Input": "8", "Output": "[0, 1, 1, 2, 3, 5, 8, 13]"},
+             {"Input": "10", "Output": "[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]"}
+         ],
+         "Hints": {
+             "Hint1": "Consider using a loop to generate the series.",
+             "Hint2": "You can use two variables to keep track of the previous two numbers in the series."
+         },
+         "Difficulty": "MEDIUM",
+         "TypeOfQuestion": {"Descriptors": ["ALGORITHM"]}
+     },
+     {
+         "QuestionID": 5,
+         "QuestionName": "Prime Number Check",
+         "QuestionDescription": "Write a program that checks if a given number is a prime number. \n\nA prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. Your program should return 'true' if the input number is prime and 'false' otherwise. For example, if the input is '7', the output should be 'true'.",
+         "Examples": [
+             {"Input": "7", "Output": "true"},
+             {"Input": "10", "Output": "false"},
+             {"Input": "23", "Output": "true"}
+         ],
+         "Hints": {
+             "Hint1": "Consider iterating through numbers less than the given number to check for factors.",
+             "Hint2": "A prime number only has two factors: 1 and itself."
+         },
+         "Difficulty": "MEDIUM",
+         "TypeOfQuestion": {"Descriptors": ["NUMBER"]}
+     },
+     {
+         "QuestionID": 6,
+         "QuestionName": "Factorial Calculation",
+         "QuestionDescription": "Write a program to calculate the factorial of a given non-negative integer. \n\nThe factorial of a non-negative integer n is the product of all positive integers less than or equal to n. Your program should return the factorial of the given number as a string. For example, if the input is '5', the output should be '120'.",
+         "Examples": [
+             {"Input": "5", "Output": "120"},
+             {"Input": "7", "Output": "5040"},
+             {"Input": "10", "Output": "3628800"}
+         ],
+         "Hints": {
+             "Hint1": "Think about using a loop to multiply numbers starting from 1 up to the given number.",
+             "Hint2": "You can also use recursion to solve this problem."
+         },
+         "Difficulty": "HARD",
+         "TypeOfQuestion": {"Descriptors": ["RECURSION"]}
+     }, 
+     {
+         "QuestionID": 7,
+         "QuestionName": "Anagram Check",
+         "QuestionDescription": "Write a program that checks if two strings are anagrams of each other. \n\nAn anagram is a word or phrase formed by rearranging the letters of another word or phrase. Your program should return 'true' if the input strings are anagrams and 'false' otherwise. For example, if the input is ['listen', 'silent'], the output should be 'true'.",
+         "Examples": [
+             {"Input": ["listen", "silent"], "Output": "true"},
+             {"Input": ["hello", "world"], "Output": "false"},
+             {"Input": ["evil", "vile"], "Output": "true"}
+         ],
+         "Hints": {
+             "Hint1": "Consider sorting the characters of each string and comparing them.",
+             "Hint2": "You can use dictionaries to count the occurrence of characters."
+         },
+         "Difficulty": "EASY",
+         "TypeOfQuestion": {"Descriptors": ["STRING"]}
+     },
+     {
+         "QuestionID": 8,
+         "QuestionName": "Sum of Digits",
+         "QuestionDescription": "Write a program that calculates the sum of the digits of a given integer. \n\nYour program should take an integer as input and return the sum of its digits. For example, if the input is '123', the output should be '6'.",
+         "Examples": [
+             {"Input": "123", "Output": "6"},
+             {"Input": "456", "Output": "15"},
+             {"Input": "987", "Output": "24"}
+         ],
+         "Hints": {
+             "Hint1": "You can use integer division and modulus operators to extract digits.",
+             "Hint2": "Consider using a loop to iterate through each digit."
+         },
+         "Difficulty": "EASY",
+         "TypeOfQuestion": {"Descriptors": ["NUMBER"]}
+     },
+     {
+         "QuestionID": 9,
+         "QuestionName": "String Compression",
+         "QuestionDescription": "Write a program that performs basic string compression using the counts of repeated characters. \n\nYour program should take a string as input and return a compressed version of the string where repeated characters are represented by the character followed by the count of consecutive occurrences. For example, if the input is 'aabcccccaaa', the output should be 'a2b1c5a3'.",
+         "Examples": [
+             {"Input": "aabcccccaaa", "Output": "a2b1c5a3"},
+             {"Input": "abcde", "Output": "a1b1c1d1e1"},
+             {"Input": "aaaabbcccd", "Output": "a4b2c3d1"}
+         ],
+         "Hints": {
+             "Hint1": "Iterate through the string and count consecutive characters.",
+             "Hint2": "Use a string builder to construct the compressed string efficiently."
+         },
+         "Difficulty": "MEDIUM",
+         "TypeOfQuestion": {"Descriptors": ["STRING"]}
+     },
+     {
+         "QuestionID": 10,
+         "QuestionName": "Anagram Check",
+         "QuestionDescription": "Write a program to check if two given strings are anagrams of each other. \n\nYour program should return 'true' if the input strings are anagrams and 'false' otherwise. For example, if the input is ['listen', 'silent'], the output should be 'true'.",
+         "Examples": [
+             {"Input": ["listen", "silent"], "Output": "true"},
+             {"Input": ["hello", "world"], "Output": "false"},
+             {"Input": ["triangle", "integral"], "Output": "true"}
+         ],
+         "Hints": {
+             "Hint1": "Consider sorting both strings and comparing if they are equal.",
+             "Hint2": "You can use a dictionary to count the occurrences of characters in each string."
+         },
+         "Difficulty": "EASY",
+         "TypeOfQuestion": {"Descriptors": ["STRING"]}
+     },
+     {
+         "QuestionID": 11,
+         "QuestionName": "Armstrong Number Check",
+         "QuestionDescription": "Write a program that checks if a given number is an Armstrong number. \n\nAn Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits. Your program should return 'true' if the input number is an Armstrong number and 'false' otherwise. For example, if the input is '153', the output should be 'true'.",
+         "Examples": [
+             {"Input": "153", "Output": "true"},
+             {"Input": "370", "Output": "true"},
+             {"Input": "9474", "Output": "true"},
+             {"Input": "123", "Output": "false"}
+         ],
+         "Hints": {
+             "Hint1": "An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.",
+             "Hint2": "You can use loops and arithmetic operations to break down the number and check if it meets the Armstrong number criteria."
+         },
+         "Difficulty": "MEDIUM",
+         "TypeOfQuestion": {"Descriptors": ["NUMBER"]}
+     }
+ ]
+ 

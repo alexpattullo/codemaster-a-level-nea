@@ -1,0 +1,11 @@
+{
+     "ProjectName":"CodeMaster",
+     "ProjectAuthor":"Alex Pattullo",
+
+
+     "LoginPage":{
+          "UsernameStandardText":"Username or EmailAddress...",
+          "PasswordStandardText":"Password...",
+          "EmailStandardText":"example@email.com..."
+     }
+}
